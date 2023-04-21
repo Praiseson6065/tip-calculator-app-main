@@ -5,9 +5,9 @@ body{
     flex-direction: column;
     justify-content: center;
 }
-.header{
+header{
     margin : 2rem auto;
-    text-align: center;
+    
     
 }
 .input_required{
@@ -136,7 +136,7 @@ body{
 .reset_btn{
     outline: none;
     border :none;
-    background-color: hsl(172, 67%, 45%);
+    background-color: hsl(186, 14%, 43%);
     width : 100% !important;
     height: 40px;
     border-radius: 8px;
@@ -151,7 +151,11 @@ body{
     font-size: 14px;
 }
 .reset_btn:active{
-    background-color:  hsl(185, 41%, 84%);
+    background-color:  hsl(172, 67%, 45%);
+}
+.btn_active
+{
+    background-color: hsl(172, 67%, 45%) !important;
 }
 
 @media only screen and (max-width: 375px) { 
@@ -166,7 +170,7 @@ body{
         grid-template-columns: 45% 45%;
         
     }
-    .header
+    header
     {
         width: 100% !important;
         display: flex;

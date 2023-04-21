@@ -17,6 +17,7 @@ function calculate(){
     document.querySelector(".tip_amt_person").textContent="$" + ((amt/people)*tip).toFixed(2) ;
    
     document.querySelector(".tip_amt_total").textContent="$" + ((amt * tip+ parseFloat(amt) )/people).toFixed(2);
+    document.querySelector(".reset_btn").classList.add("btn_active");
       
   }
   
@@ -102,6 +103,7 @@ document.querySelector(".reset_btn").addEventListener("click",function(){
   }
   peopleInput.value="";
   calculate();
+  document.querySelector(".reset_btn").classList.remove("btn_active");
 })
 
 
