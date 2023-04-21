@@ -4,11 +4,10 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin:0;
 }
 header{
     margin : 2rem auto;
-    
-    
 }
 .input_required{
     outline: 2px solid red !important;
@@ -24,8 +23,7 @@ header{
     color: hsl(183, 100%, 15%);
 }
 .wrapper{
-    width: 850px !important ;    
-    height: 400px  !important ; 
+    
     background-color: white;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -76,11 +74,15 @@ header{
 }
 
 .tip_percentwrap{
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    justify-content: space-between  ;
-    gap:10px 10px;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: (1,1,1);
 }
 .tip_btn{
     min-height: 32px;
@@ -90,7 +92,8 @@ header{
     border-radius: 4px;
     font-family: 'Space Mono', monospace;
     font-size: 1.2rem;
-    padding: .4rem .8rem;   
+    padding: .4rem .8rem; 
+    width:30%;  
 }
 .active{
     background-color:  hsl(185, 41%, 84%);
@@ -106,6 +109,8 @@ header{
     text-align: center;
     font-family: 'Space Mono', monospace;
     font-size: 1.2rem;
+    box-sizing: border-box;
+    width: 30%;
     padding: .4rem .8rem;
 }
 .tip_custom:focus{
