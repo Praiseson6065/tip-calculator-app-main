@@ -29,8 +29,8 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Praiseson6065/tip-calculator-app-main)
-- Live Site URL: [Add live site URL here](https://praiseson6065.github.io/tip-calculator-app-main/)
+- Solution URL: [Tip calculator app Solution](https://github.com/Praiseson6065/tip-calculator-app-main)
+- Live Site URL: [Tip calculator Site](https://praiseson6065.github.io/tip-calculator-app-main/)
 
 
 ### Built with
