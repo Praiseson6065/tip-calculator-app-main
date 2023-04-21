@@ -56,6 +56,8 @@ for(let i=0;i<tipBtns.length;i++)
     {
       tipBtns[j].classList.remove("active");
     }
+    warning[1].style.visibility ="hidden";
+    
     this.classList.add("active");
     cstmIntrest.value= "";
     calculate();
